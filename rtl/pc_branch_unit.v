@@ -1014,10 +1014,6 @@ module pc_branch_unit(/*AUTOARG*/
 		    t_pc = saved_pc;
 		 end
 
-	       `X_JUMPSIMD:
-		 begin
-
-		 end
 
 	       `X_JUMPSCALAR:
 		 begin
