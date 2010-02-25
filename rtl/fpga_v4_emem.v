@@ -1355,7 +1355,7 @@ module v4_emem(/*AUTOARG*/
 
 
    
-   ELM_EMEM
+   fpga_emem
      the_emem_b0(
 		 // Outputs
 		 .dout			(emem_b0_read_data[63:0]),
@@ -1368,7 +1368,7 @@ module v4_emem(/*AUTOARG*/
 		 .mask			(b0_m)
 		 );
    
-   ELM_EMEM
+   fpga_emem
      the_emem_b1(
 		 // Outputs
 		 .dout			(emem_b1_read_data[63:0]),
@@ -1381,7 +1381,7 @@ module v4_emem(/*AUTOARG*/
 		 .mask			(b1_m)
 		 );
  
-   ELM_EMEM
+   fpga_emem
      the_emem_b2(
 		 // Outputs
 		 .dout			(emem_b2_read_data[63:0]),
@@ -1393,7 +1393,7 @@ module v4_emem(/*AUTOARG*/
 		 .din			(b2_d),
 		 .mask			(b2_m)
 		 );
-  ELM_EMEM
+   fpga_emem
      the_emem_b3(
 		 // Outputs
 		 .dout			(emem_b3_read_data[63:0]),

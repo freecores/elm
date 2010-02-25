@@ -91,8 +91,6 @@ module xp_ptr(/*AUTOARG*/
    output [11:0] xmu_write_xp_grf_ptr;
          
 
-
-   /* I HATE RTL */
    wire 	 alu_write = alu_write_req;
    wire 	 xmu_write = xmu_write_req & !st_rd_from_xprf;
 
